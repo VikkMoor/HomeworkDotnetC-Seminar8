@@ -29,7 +29,7 @@ void PrintArray(int[] arr)
         pos2++;
     }
 }
-int[] SumRow (int[,] matr)
+int[] SumRow (int[,] matr) // output - array with each row's sums of matrix.
 {
     int[] arr = new int [matr.GetLength(0)];
     for (int i = 0; i < matr.GetLength(0); i++)
